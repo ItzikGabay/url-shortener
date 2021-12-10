@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../UI/button/Button';
 import css from './navbar.module.css';
 
 export const Navbar: React.FC = () => {
