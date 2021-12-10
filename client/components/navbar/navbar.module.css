@@ -1,7 +1,15 @@
 .nav-container {
   display: flex;
-  background-color: rgb(255, 255, 255);
-  color: rgb(30, 30, 30);
+  background-color: rgb(5, 6, 45);
+  color: rgb(255, 255, 255);
+  border-bottom: 4px solid rgb(93, 0, 223);
+}
+
+.navbar-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .navbar-left {
@@ -9,6 +17,17 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.navbar-left p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-left p > * {
+  font-size: 35px;
+  margin-right: 8px;
 }
 
 .navbar-right {
