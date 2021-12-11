@@ -22,7 +22,7 @@ export const Shorten: React.FC<ShortenProps> = ({}) => {
 
     const content = await rawResponse.json();
     if (content.error) return setLinkInput(content.error);
-    setLinkInput(content.shorten);
+    setLinkInput(`${window.location.href}${content.shorten}`);
   };
 
   return (

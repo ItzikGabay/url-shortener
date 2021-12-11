@@ -1,8 +1,12 @@
 import express, { Request, Response, NextFunction, Router } from 'express';
 
+// because of mysql importing not finding env files
+require('dotenv').config();
+import { createShortenItem } from '../services/sql/index';
+
 const RouterHandler: Router = express.Router();
 
-RouterHandler.route('/shorten').post((req: Request, res: Response) => {
+RouterHandler.route('/shorten').post(async (req: Request, res: Response) => {
   /**
    * 1. Validate the input
    * TODO: XSS, SQL, sanitizing, and validating the actual url of the input
@@ -10,14 +14,11 @@ RouterHandler.route('/shorten').post((req: Request, res: Response) => {
   if (req.body.url.trim().length < 7)
     return res.send({ error: 'Not valid link' });
 
-  /**
-   * 2. Send back to the user the shorten link
-   */
-  const result = {
-    shorten: `${generateUID()}`,
-    original: req.body.url,
-  };
-  return res.send(result);
+  const newCreatedID = generateUID();
+
+  await createShortenItem(req.body.url, newCreatedID);
+
+  return res.send({ shorten: newCreatedID });
 });
 
 export default RouterHandler;
