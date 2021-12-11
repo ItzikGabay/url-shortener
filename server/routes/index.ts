@@ -2,7 +2,7 @@ import express, { Request, Response, NextFunction, Router } from 'express';
 
 // because of mysql importing not finding env files
 require('dotenv').config();
-import { createShortenItem } from '../services/sql/index';
+import { createShortenItem, findLinkById } from '../services/sql/index';
 
 const RouterHandler: Router = express.Router();
 
@@ -20,6 +20,16 @@ RouterHandler.route('/shorten').post(async (req: Request, res: Response) => {
 
   return res.send({ shorten: newCreatedID });
 });
+
+RouterHandler.route('/shorten/:shorten_id').get(
+  (req: Request, res: Response) => {
+    const shorten_id: string = req.params.shorten_id;
+
+    const result = findLinkById(shorten_id);
+
+    return res.send({ original: 'working' });
+  }
+);
 
 export default RouterHandler;
 

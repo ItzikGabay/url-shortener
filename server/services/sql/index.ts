@@ -27,6 +27,16 @@ export const createShortenItem = async (original: string, shorten: string) => {
   });
 };
 
+export const findLinkById = (shorten_id: string) => {
+  const query: string = `select * from links where shorten = '${shorten_id}'`;
+
+  return connection.query(query, null, (err, rows) => {
+    if (err) console.log(err);
+    const result = { result: rows[0].original };
+
+    return result;
+  });
+};
 // createShortenItem();
 
 export default createConnection;

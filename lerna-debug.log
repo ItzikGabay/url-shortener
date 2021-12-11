@@ -1,0 +1,1452 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/node_modules/.bin/lerna',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener
+3 info Executing command in 2 packages: "npm run start"
+4 silly npmRunScript.stream [ 'start', [], 'client' ]
+5 silly getExecOpts /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/client undefined
+6 silly npmRunScript.stream [ 'start', [], 'server' ]
+7 silly getExecOpts /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server undefined
+8 error Error: Command failed: npm run start
+8 error Error: write EPIPE
+8 error     at process.target._send (internal/child_process.js:839:20)
+8 error     at process.target.send (internal/child_process.js:710:19)
+8 error     at Object.exports.send (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/ts-node-dev/lib/ipc.js:17:14)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/ts-node-dev/lib/wrap.js:88:9
+8 error     at Object.nodeDevHook [as .js] (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/ts-node-dev/lib/hook.js:61:17)
+8 error     at Module.load (internal/modules/cjs/loader.js:937:32)
+8 error     at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+8 error     at Module.require (internal/modules/cjs/loader.js:961:19)
+8 error     at require (internal/modules/cjs/helpers.js:92:18)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/http-errors/index.js:18:16)
+8 error Error: write EPIPE
+8 error     at process.target._send (internal/child_process.js:839:20)
+8 error     at process.target.send (internal/child_process.js:710:19)
+8 error     at Object.exports.send (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/ts-node-dev/lib/ipc.js:17:14)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/ts-node-dev/lib/wrap.js:88:9
+8 error     at Object.nodeDevHook [as .js] (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/ts-node-dev/lib/hook.js:61:17)
+8 error     at Module.load (internal/modules/cjs/loader.js:937:32)
+8 error     at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+8 error     at Module.require (internal/modules/cjs/loader.js:961:19)
+8 error     at require (internal/modules/cjs/helpers.js:92:18)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/qs/lib/stringify.js:4:15)
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error error: connect ECONNREFUSED 127.0.0.1:3307
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error error: Cannot enqueue Handshake after already enqueuing a Handshake.
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error (node:93381) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'trim' of undefined
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts:14:20
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts:4:12)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts:9:72
+8 error     at Layer.handle [as handle_request] (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/express/lib/router/layer.js:95:5)
+8 error     at next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/express/lib/router/route.js:137:13)
+8 error     at Route.dispatch (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/express/lib/router/route.js:112:3)
+8 error (Use `node --trace-warnings ...` to show where the warning was created)
+8 error (node:93381) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+8 error (node:93381) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error Compilation error in /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts
+8 error
+8 error <--- Last few GCs --->
+8 error
+8 error [88174:0x1048d7000]  5171813 ms: Mark-sweep (reduce) 4090.1 (4103.0) -> 4089.4 (4104.3) MB, 3999.5 / 0.0 ms  (average mu = 0.126, current mu = 0.002) allocation failure scavenge might not succeed
+8 error [88174:0x1048d7000]  5175524 ms: Mark-sweep (reduce) 4090.5 (4103.3) -> 4089.9 (4104.3) MB, 3705.3 / 0.0 ms  (average mu = 0.067, current mu = 0.002) allocation failure scavenge might not succeed
+8 error
+8 error
+8 error <--- JS stacktrace --->
+8 error
+8 error FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+8 error  1: 0x101306bb5 node::Abort() (.cold.1) [/usr/local/bin/node]
+8 error  2: 0x1000ad6c9 node::Abort() [/usr/local/bin/node]
+8 error  3: 0x1000ad82f node::OnFatalError(char const*, char const*) [/usr/local/bin/node]
+8 error  4: 0x1001f1b97 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]
+8 error  5: 0x1001f1b33 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]
+8 error  6: 0x10039f695 v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/usr/local/bin/node]
+8 error  7: 0x1003a113a v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/usr/local/bin/node]
+8 error  8: 0x10039c865 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/local/bin/node]
+8 error  9: 0x10039a190 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/bin/node]
+8 error 10: 0x1003a88ba v8::internal::Heap::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/bin/node]
+8 error 11: 0x1003a8941 v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/bin/node]
+8 error 12: 0x100376712 v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/usr/local/bin/node]
+8 error 13: 0x1006f64c8 v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]
+8 error 14: 0x100a7c3f9 Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]
+8 error 15: 0x28d7e1485a2f
+8 error
+8 error
+8 error > server@1.0.0 start /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server
+8 error > ts-node-dev --respawn app.ts
+8 error
+8 error [INFO] 03:01:38 ts-node-dev ver. 1.1.8 (using ts-node ver. 9.1.1, typescript ver. 4.5.3)
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:02:12 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:02:14 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:04:02 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:04:04 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error [INFO] 03:04:04 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:04:06 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:04:13 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error [INFO] 03:04:13 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:05:05 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error [ERROR] 03:05:05 ⨯ Unable to compile TypeScript:
+8 error app.ts(8,1): error TS2349: This expression is not callable.
+8 error   Type 'Connection' has no call signatures.
+8 error
+8 error [INFO] 03:05:07 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error [ERROR] 03:05:07 ⨯ Unable to compile TypeScript:
+8 error app.ts(8,1): error TS2349: This expression is not callable.
+8 error   Type 'Connection' has no call signatures.
+8 error
+8 error [INFO] 03:05:20 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:05:24 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:07:06 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:10:02 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:10:15 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:11:36 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:11:36 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(20,1): error TS2304: Cannot find name 'create'.
+8 error
+8 error [INFO] 03:11:42 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:11:42 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(20,1): error TS2304: Cannot find name 'create'.
+8 error
+8 error [INFO] 03:11:49 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:11:50 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(22,1): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:11:52 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:12:00 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:00 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,14): error TS2339: Property 'qu' does not exist on type 'Connection'.
+8 error
+8 error [INFO] 03:12:02 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:03 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,14): error TS2554: Expected 1-3 arguments, but got 0.
+8 error
+8 error [INFO] 03:12:19 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:19 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,14): error TS2554: Expected 1-3 arguments, but got 0.
+8 error
+8 error [INFO] 03:12:21 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:12:25 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:25 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,14): error TS2554: Expected 1-3 arguments, but got 0.
+8 error
+8 error [INFO] 03:12:28 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:12:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:12:32 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:32 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,24): error TS2304: Cannot find name 'sdf'.
+8 error
+8 error [INFO] 03:12:35 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:36 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(21,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:12:39 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:40 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(21,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:12:43 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:43 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(21,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:12:48 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:48 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:12:51 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:52 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:12:57 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:12:58 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:00 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:01 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:05 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:06 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:07 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:08 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:13 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:14 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:18 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:19 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:20 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:21 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:28 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:29 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:30 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:46 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:47 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:53 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:54 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(24,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:13:56 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:13:57 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(23,24): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(23,29): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:14:33 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:14:34 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(23,22): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(23,27): error TS2304: Cannot find name 'fs'.
+8 error services/sql/index.ts(23,20): error TS1135: Argument expression expected.
+8 error
+8 error [INFO] 03:14:34 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:14:35 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(23,27): error TS2304: Cannot find name 'sdf'.
+8 error services/sql/index.ts(23,32): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:15:27 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:15:29 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(23,33): error TS2304: Cannot find name 'fs'.
+8 error
+8 error [INFO] 03:15:38 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:15:41 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:15:41 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(24,8): error TS1109: Expression expected.
+8 error services/sql/index.ts(25,3): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:15:43 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:15:44 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(25,3): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:15:50 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:15:51 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:15:54 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:15:55 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:16:01 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:16:01 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,3): error TS1184: Modifiers cannot appear here.
+8 error
+8 error [INFO] 03:16:08 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:16:09 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:16:19 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:16:20 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(4,1): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:16:30 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:16:31 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(4,1): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:16:32 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:16:33 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,33): error TS2307: Cannot find module '../' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:16:38 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:16:39 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,33): error TS2307: Cannot find module '../serv' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:16:40 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:16:41 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,33): error TS2307: Cannot find module '../services/' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:16:42 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:16:45 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:16:53 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:16:57 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:17:05 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:17:05 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(29,16): error TS2528: A module cannot have multiple default exports.
+8 error services/sql/index.ts(29,16): error TS2528: A module cannot have multiple default exports.
+8 error services/sql/index.ts(20,41): error TS1109: Expression expected.
+8 error services/sql/index.ts(20,43): error TS1005: ';' expected.
+8 error
+8 error [INFO] 03:17:15 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:17:34 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:17:44 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:17:47 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:17:54 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:17:55 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(6,59): error TS2300: Duplicate identifier 'res'.
+8 error routes/index.ts(21,9): error TS2300: Duplicate identifier 'res'.
+8 error
+8 error [INFO] 03:17:59 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:18:01 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(21,12): error TS7005: Variable 'await' implicitly has an 'any' type.
+8 error routes/index.ts(21,18): error TS7005: Variable 'createShortenItem' implicitly has an 'any' type.
+8 error routes/index.ts(21,10): error TS1134: Variable declaration expected.
+8 error routes/index.ts(21,18): error TS1005: ',' expected.
+8 error routes/index.ts(21,35): error TS1005: ',' expected.
+8 error routes/index.ts(21,36): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:18:01 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:18:04 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:18:27 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:18:27 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(21,23): error TS2304: Cannot find name 'createShortenItem'.
+8 error
+8 error [INFO] 03:18:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:18:29 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(21,23): error TS2304: Cannot find name 'createShortenItem'.
+8 error
+8 error [INFO] 03:18:32 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:20:11 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:20:32 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:20:58 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:21:03 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:21:04 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(3,1): error TS2304: Cannot find name 'dotenv'.
+8 error
+8 error [INFO] 03:21:05 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:21:09 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:21:10 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(21,23): error TS2304: Cannot find name 'createShortenItem'.
+8 error
+8 error [INFO] 03:21:13 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:22:00 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:22:04 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:22:04 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,30): error TS2307: Cannot find module './services/sql/index' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:22:05 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:22:06 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,30): error TS2307: Cannot find module './services/sql/index' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:22:10 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:22:10 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,30): error TS2307: Cannot find module './services/sql/index' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:22:13 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:22:26 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:22:30 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error [INFO] 03:22:35 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error [ERROR] 03:22:35 ⨯ Unable to compile TypeScript:
+8 error app.ts(6,30): error TS2307: Cannot find module '../services/sql/index' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:22:37 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:22:40 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:22:43 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/app.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:22:54 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:22:59 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:22:59 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(30,20): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:23:01 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_NO_DB_ERROR: No database selected
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_NO_DB_ERROR',
+8 error   errno: 1046,
+8 error   sqlMessage: 'No database selected',
+8 error   sqlState: '3D000',
+8 error   index: 0,
+8 error   sql: "insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:23:56 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 1
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_PARSE_ERROR',
+8 error   errno: 1064,
+8 error   sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 1",
+8 error   sqlState: '42000',
+8 error   index: 0,
+8 error   sql: "use shorten; insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:24:19 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 2
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:25:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:31:18) {
+8 error   code: 'ER_PARSE_ERROR',
+8 error   errno: 1064,
+8 error   sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 2",
+8 error   sqlState: '42000',
+8 error   index: 0,
+8 error   sql: 'use shorten; \n' +
+8 error     "  insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:24:25 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 1
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_PARSE_ERROR',
+8 error   errno: 1064,
+8 error   sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 1",
+8 error   sqlState: '42000',
+8 error   index: 0,
+8 error   sql: "use shorten; insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:24:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''; insert into links (original, shorten) values ('testfromBE','working')' at line 1
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_PARSE_ERROR',
+8 error   errno: 1064,
+8 error   sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''; insert into links (original, shorten) values ('testfromBE','working')' at line 1",
+8 error   sqlState: '42000',
+8 error   index: 0,
+8 error   sql: "use shorten'; insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:24:30 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''shorten'; insert into links (original, shorten) values ('testfromBE','working')' at line 1
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_PARSE_ERROR',
+8 error   errno: 1064,
+8 error   sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''shorten'; insert into links (original, shorten) values ('testfromBE','working')' at line 1",
+8 error   sqlState: '42000',
+8 error   index: 0,
+8 error   sql: "use 'shorten'; insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:24:37 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 03:24:37 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(22,25): error TS2304: Cannot find name 'insert'.
+8 error services/sql/index.ts(22,32): error TS7005: Variable 'into' implicitly has an 'any' type.
+8 error services/sql/index.ts(22,37): error TS7005: Variable 'links' implicitly has an 'any' type.
+8 error services/sql/index.ts(22,44): error TS2552: Cannot find name 'original'. Did you mean 'origin'?
+8 error services/sql/index.ts(22,44): error TS2695: Left side of comma operator is unused and has no side effects.
+8 error services/sql/index.ts(22,54): error TS2304: Cannot find name 'shorten'.
+8 error services/sql/index.ts(22,63): error TS2304: Cannot find name 'values'.
+8 error services/sql/index.ts(22,32): error TS1005: ',' expected.
+8 error services/sql/index.ts(22,37): error TS1005: ',' expected.
+8 error services/sql/index.ts(22,43): error TS1005: ',' expected.
+8 error services/sql/index.ts(22,63): error TS1005: ';' expected.
+8 error services/sql/index.ts(33,1): error TS1160: Unterminated template literal.
+8 error
+8 error [INFO] 03:24:38 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_NO_DB_ERROR: No database selected
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_NO_DB_ERROR',
+8 error   errno: 1046,
+8 error   sqlMessage: 'No database selected',
+8 error   sqlState: '3D000',
+8 error   index: 0,
+8 error   sql: "insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:25:26 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and insert into links (original, shorten) values ('testfromBE','working')' at line 1
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_PARSE_ERROR',
+8 error   errno: 1064,
+8 error   sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and insert into links (original, shorten) values ('testfromBE','working')' at line 1",
+8 error   sqlState: '42000',
+8 error   index: 0,
+8 error   sql: "use shorten and insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:25:36 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 1
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_PARSE_ERROR',
+8 error   errno: 1064,
+8 error   sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into links (original, shorten) values ('testfromBE','working')' at line 1",
+8 error   sqlState: '42000',
+8 error   index: 0,
+8 error   sql: "use shorten insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:25:43 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_NO_DB_ERROR: No database selected
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:34)
+8 error     at Object.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:30:18) {
+8 error   code: 'ER_NO_DB_ERROR',
+8 error   errno: 1046,
+8 error   sqlMessage: 'No database selected',
+8 error   sqlState: '3D000',
+8 error   index: 0,
+8 error   sql: "insert into links (original, shorten) values ('testfromBE','working')"
+8 error }
+8 error undefined
+8 error [INFO] 03:31:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 2,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:31:48 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 3,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:31:52 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:32:42 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:32:43 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,33): error TS2307: Cannot find module '../' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:32:45 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:32:46 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,33): error TS2307: Cannot find module '../services/' or its corresponding type declarations.
+8 error
+8 error [INFO] 03:32:47 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:32:48 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:32:56 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:32:56 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(3,20): error TS1109: Expression expected.
+8 error
+8 error [INFO] 03:32:58 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error     at Handshake.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Handshake.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Protocol.handshake (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+8 error     at Connection.connect (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:116:18)
+8 error     at Connection._implyConnect (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:454:10)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:196:8)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>) {
+8 error   code: 'ER_ACCESS_DENIED_ERROR',
+8 error   errno: 1045,
+8 error   sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+8 error   sqlState: '28000',
+8 error   fatal: true
+8 error }
+8 error undefined
+8 error [INFO] 03:33:14 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:33:55 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 03:33:56 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(2,26): error TS2304: Cannot find name 'createShortenItem'.
+8 error routes/index.ts(2,46): error TS2304: Cannot find name 'from'.
+8 error routes/index.ts(2,24): error TS1005: '=' expected.
+8 error routes/index.ts(2,46): error TS1434: Unexpected keyword or identifier.
+8 error
+8 error [INFO] 03:33:57 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:33:59 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error     at Handshake.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Handshake.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Protocol.handshake (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+8 error     at Connection.connect (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:116:18)
+8 error     at Connection._implyConnect (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:454:10)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:196:8)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>) {
+8 error   code: 'ER_ACCESS_DENIED_ERROR',
+8 error   errno: 1045,
+8 error   sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+8 error   sqlState: '28000',
+8 error   fatal: true
+8 error }
+8 error undefined
+8 error [INFO] 03:34:02 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+8 error     at Handshake.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Handshake.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Protocol.handshake (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+8 error     at Connection.connect (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:116:18)
+8 error     at Connection._implyConnect (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:454:10)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:196:8)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>) {
+8 error   code: 'ER_ACCESS_DENIED_ERROR',
+8 error   errno: 1045,
+8 error   sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+8 error   sqlState: '28000',
+8 error   fatal: true
+8 error }
+8 error undefined
+8 error [INFO] 03:34:05 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:35:28 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:35:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:35:34 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 03:35:36 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 4,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:35:45 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 5,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:36:10 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 6,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:36:20 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 7,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:36:23 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 8,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:36:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 9,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 03:36:31 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:10:22 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:10:56 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:11:05 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:11:08 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:11:20 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:11:21 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'ori' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:11:24 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:11:25 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'original' implicitly has an 'any' type.
+8 error services/sql/index.ts(21,51): error TS7006: Parameter 'url' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:11:27 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:11:28 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'original' implicitly has an 'any' type.
+8 error services/sql/index.ts(21,51): error TS7006: Parameter 'sh' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:11:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:11:30 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'original' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:11:30 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:11:31 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'original' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:11:45 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:11:46 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'original' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:12:03 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:12:04 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'original' implicitly has an 'any' type.
+8 error services/sql/index.ts(22,74): error TS1109: Expression expected.
+8 error
+8 error [INFO] 04:12:04 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:12:05 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(21,41): error TS7006: Parameter 'original' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:12:21 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:12:36 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:12:56 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:13:42 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:13:42 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(21,3): error TS7005: Variable 'await' implicitly has an 'any' type.
+8 error routes/index.ts(21,9): error TS7005: Variable 'createShortenItem' implicitly has an 'any' type.
+8 error routes/index.ts(21,9): error TS1005: ',' expected.
+8 error routes/index.ts(21,26): error TS1005: ',' expected.
+8 error
+8 error [INFO] 04:13:48 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:13:51 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:13:54 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:13:54 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(19,41): error TS2554: Expected 1 arguments, but got 2.
+8 error
+8 error [INFO] 04:14:22 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:14:23 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(19,41): error TS2554: Expected 1 arguments, but got 2.
+8 error
+8 error [INFO] 04:14:46 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:14:48 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(27,4): error TS1005: ')' expected.
+8 error routes/index.ts(32,1): error TS1128: Declaration or statement expected.
+8 error routes/index.ts(32,2): error TS1128: Declaration or statement expected.
+8 error
+8 error [INFO] 04:14:51 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:14:52 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(27,4): error TS1005: ')' expected.
+8 error routes/index.ts(32,1): error TS1128: Declaration or statement expected.
+8 error routes/index.ts(32,2): error TS1128: Declaration or statement expected.
+8 error
+8 error [INFO] 04:15:00 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:15:03 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error Error: ER_BAD_FIELD_ERROR: Unknown column 'sdfsdfsdfdssfd' in 'field list'
+8 error     at Query.Sequence._packetToError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+8 error     at Query.ErrorPacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+8 error     at Protocol._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+8 error     at Parser._parsePacket (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+8 error     at Parser.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+8 error     at Protocol.write (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:88:28)
+8 error     at Socket.<anonymous> (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:526:10)
+8 error     at Socket.emit (events.js:400:28)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     --------------------
+8 error     at Protocol._enqueue (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+8 error     at Connection.query (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/node_modules/mysql/lib/Connection.js:198:25)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:24:14
+8 error     at step (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:33:23)
+8 error     at Object.next (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:14:53)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:8:71
+8 error     at new Promise (<anonymous>)
+8 error     at __awaiter (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:4:12)
+8 error     at createShortenItem (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts:21:74)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts:19:26 {
+8 error   code: 'ER_BAD_FIELD_ERROR',
+8 error   errno: 1054,
+8 error   sqlMessage: "Unknown column 'sdfsdfsdfdssfd' in 'field list'",
+8 error   sqlState: '42S22',
+8 error   index: 0,
+8 error   sql: 'insert into links (original, shorten) values (sdfsdfsdfdssfd,ukxxij)'
+8 error }
+8 error undefined
+8 error [INFO] 04:15:54 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:15:56 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:15:57 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:15:59 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 10,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 11,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 04:16:49 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 12,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 04:18:03 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 13,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 14,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 04:19:09 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 15,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 16,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 17,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 18,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 19,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error OkPacket {
+8 error   fieldCount: 0,
+8 error   affectedRows: 1,
+8 error   insertId: 20,
+8 error   serverStatus: 2,
+8 error   warningCount: 0,
+8 error   message: '',
+8 error   protocol41: true,
+8 error   changedRows: 0
+8 error }
+8 error [INFO] 04:24:28 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:24:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:24:30 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(24,33): error TS1003: Identifier expected.
+8 error
+8 error [INFO] 04:24:32 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:24:35 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(24,37): error TS2769: No overload matches this call.
+8 error   The last overload gave the following error.
+8 error     Argument of type 'string' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+8 error
+8 error [INFO] 04:24:35 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:24:40 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(24,41): error TS2769: No overload matches this call.
+8 error   The last overload gave the following error.
+8 error     Argument of type 'string' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+8 error
+8 error [INFO] 04:24:50 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:25:01 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error working
+8 error [INFO] 04:25:36 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:25:44 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:25:44 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(26,3): error TS2339: Property 'res' does not exist on type 'Response<any, Record<string, any>>'.
+8 error
+8 error [INFO] 04:25:46 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:25:50 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:25:51 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(25,16): error TS1003: Identifier expected.
+8 error
+8 error [INFO] 04:25:52 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:25:53 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(25,16): error TS1003: Identifier expected.
+8 error
+8 error [INFO] 04:26:03 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:26:24 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:26:29 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:26:39 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:26:45 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [ERROR] 04:26:45 ⨯ Unable to compile TypeScript:
+8 error routes/index.ts(26,11): error TS1155: 'const' declarations must be initialized.
+8 error routes/index.ts(26,11): error TS7005: Variable 'user' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:26:48 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error [INFO] 04:26:55 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:26:57 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/routes/index.ts has been modified
+8 error url-shortener application is running on port 5000.
+8 error Connected to the MySQL server.
+8 error [INFO] 04:27:15 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:27:16 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(31,13): error TS1123: Variable declaration list cannot be empty.
+8 error
+8 error [INFO] 04:27:17 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error [ERROR] 04:27:22 ⨯ Unable to compile TypeScript:
+8 error services/sql/index.ts(31,14): error TS1155: 'const' declarations must be initialized.
+8 error services/sql/index.ts(31,14): error TS7005: Variable 'find' implicitly has an 'any' type.
+8 error
+8 error [INFO] 04:27:26 Restarting: /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/server/services/sql/index.ts has been modified
+8 error
+8 error     at makeError (/Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/node_modules/execa/index.js:174:9)
+8 error     at /Users/user/Desktop/CleanCode_2021/projects/monorepo-url-shortener/node_modules/execa/index.js:278:16
