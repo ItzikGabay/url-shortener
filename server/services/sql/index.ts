@@ -1,42 +1,59 @@
-import mysql, { Connection, MysqlError } from 'mysql';
+import mysql from 'mysql';
 
-const connection: Connection = mysql.createConnection({
+const pool = mysql.createPool({
   database: process.env.DB_NAME,
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   port: 3306,
+  connectionLimit: 10,
+  // waitForConnections: true,
+  // connectionLimit: 10,
+  // queueLimit: 0,
 });
 
-const createConnection = async () => {
-  connection.connect(function (err: MysqlError) {
-    if (err) {
-      return console.error('error: ' + err.message);
-    }
+// pool.query(`select * from links where id = 1`, [], (err, res) => {
+//   if (err) throw err;
+//   console.log(res);
+//   return res;
+// });
 
-    console.log('Connected to the MySQL server.');
-  });
-};
+// const createConnection = async () => {
+//   connection.connect(function (err) {
+//     if (err) {
+//       return console.error('error: ' + err.message);
+//     }
+
+//     console.log('Connected to the MySQL server.');
+//   });
+// };
 
 export const createShortenItem = async (original: string, shorten: string) => {
   const query: string = `insert into links (original, shorten) values ('${original}','${shorten}')`;
 
-  connection.query(query, null, (err, rows) => {
+  pool.query(query, null, (err, rows) => {
     if (err) console.log(err);
     console.log(rows);
   });
 };
 
-export const findLinkById = (shorten_id: string) => {
-  const query: string = `select * from links where shorten = '${shorten_id}'`;
+// export const findLinkById = (shorten_id: string) => {
+//   const query: string = `select * from links where shorten = '${shorten_id}'`;
 
-  return connection.query(query, null, (err, rows) => {
-    if (err) console.log(err);
-    const result = { result: rows[0].original };
+//   return pool.query(query, null, (err, rows) => {
+//     if (err) console.log(err);
+//     const result = { result: rows[0].original };
+//     console.log(result);
 
-    return result;
-  });
-};
+//     return result;
+//   });
+// };
 // createShortenItem();
 
-export default createConnection;
+// async function query(sql: any, params: any) {
+//   const [rows, fields] = await pool.execute(sql, params);
+
+//   return rows;
+// }
+
+export default pool;

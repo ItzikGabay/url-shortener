@@ -6,7 +6,14 @@ import * as dotenv from 'dotenv';
 dotenv.config({ path: __dirname + '/.env' });
 
 import createConnection from './services/sql/index';
-createConnection();
+// findLinkById("test");
+
+// createConnection.query('')
+// createConnection.query(`select * from links where id = 1`, [], (err, res) => {
+//   if (err) throw err;
+//   console.log(res[0].original);
+//   return res;
+// });
 
 const app: Express = express();
 const port: number = 5000;
