@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div>
       <Navbar />
       <Component {...pageProps} />
+      <p className="footer">Developed by @itzikdevio</p>
     </div>
   );
 }

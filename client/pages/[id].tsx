@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-// import { withRouter } from 'next/router';
-//
 
 export const _id: React.FC = ({}) => {
   const [linkData, setLinkData]: any = useState({});
-  const [linkID, setLinkID]: any = useState();
   const router = useRouter();
   const { id } = router.query;
 
@@ -30,10 +27,11 @@ export const _id: React.FC = ({}) => {
   }, [id]);
 
   useEffect(() => {
-    if(linkData.original) window.location.href = linkData.original;
-
+    if (linkData.original) window.location.href = linkData.original;
   }, [linkData]);
 
+  if (!linkData.original)
+    return <p>We cannot find the ID your looking for. sorry..</p>;
   return <p>Redirecting to {linkData.original} ...</p>;
 };
 

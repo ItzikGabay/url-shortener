@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction, Router } from 'express';
 require('dotenv').config();
 const RouterHandler: Router = express.Router();
 
+import validateURL from 'valid-url';
 import generateUID from '../services/drivers/uid';
 import createConnection, { createShortenItem } from '../services/sql/index';
 
@@ -9,8 +10,13 @@ RouterHandler.route('/shorten').post(async (req: Request, res: Response) => {
   /**
    * TODO XSS, SQL, sanitizing, and validating the actual url of the input
    */
-  if (req.body.url.trim().length < 7)
-    return res.send({ error: 'Not valid link' });
+
+  const expression =
+    /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)?/gi;
+
+  const regex = new RegExp(expression);
+
+  if (!req.body.url.match(regex)) return res.send({ error: 'Not valid link' });
 
   const newCreatedID = generateUID();
 
@@ -25,7 +31,7 @@ RouterHandler.route('/shorten/:shorten_id').get(
     const shorten_id: string = req.params.shorten_id;
 
     // send request to db to find by the params
-    const dbResponse = createConnection.query(
+    createConnection.query(
       `select * from links where shorten = '${shorten_id}'`,
       [],
       (err, dbResponse) => {
