@@ -2,20 +2,22 @@ import express, { Request, Response, NextFunction, Router } from 'express';
 
 const RouterHandler: Router = express.Router();
 
-RouterHandler.route('/')
-  .get((req: Request, res: Response) => {
-    res.send('GET: works');
-  })
-  .post((req: Request, res: Response) => {
-    res.send('POST: works');
-  });
+RouterHandler.route('/shorten').post((req: Request, res: Response) => {
+  /**
+   * 1. Validate the input
+   * TODO: XSS, SQL, sanitizing, and validating the actual url of the input
+   */
+  if (req.body.url.trim().length < 7)
+    return res.send({ error: 'Not valid link' });
 
-RouterHandler.route('/shorten').post((req, res) => {
+  /**
+   * 2. Send back to the user the shorten link
+   */
   const result = {
-    shorten: `shorten.io/${generateUID()}`,
+    shorten: `${generateUID()}`,
     original: req.body.url,
   };
-  res.send(result);
+  return res.send(result);
 });
 
 export default RouterHandler;
