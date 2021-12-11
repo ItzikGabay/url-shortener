@@ -11,7 +11,10 @@ RouterHandler.route('/')
   });
 
 RouterHandler.route('/shorten').post((req, res) => {
-  const result = `${req.body.url} is saved as 'shorten.io/${generateUID()}'`;
+  const result = {
+    shorten: `shorten.io/${generateUID()}`,
+    original: req.body.url,
+  };
   res.send(result);
 });
 

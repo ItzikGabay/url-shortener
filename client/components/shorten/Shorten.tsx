@@ -1,3 +1,4 @@
+import { json } from 'node:stream/consumers';
 import React, { useRef, useState } from 'react';
 import css from './shorten.module.css';
 
@@ -7,10 +8,20 @@ export const Shorten: React.FC<ShortenProps> = ({}) => {
   // const linkInput: any = useRef(null);
   const [linkInput, setLinkInput] = useState('');
 
-  const buttonHandler = () => {
+  const buttonHandler = async () => {
+    const userInputStringified = JSON.stringify({ url: linkInput });
 
+    const rawResponse = await fetch('http://localhost:5000/shorten', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: userInputStringified,
+    });
 
-    setLinkInput('RESULT FROM THE API');
+    const content = await rawResponse.json();
+    setLinkInput(content.shorten);
   };
 
   return (
